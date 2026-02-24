@@ -539,3 +539,7 @@ Entrambi i tool sono progettati e testati per i **Setup Sheet** generati da:
 ## Licenza
 
 MIT
+
+## Autore
+
+[RAW](https://rawmain.github.io/)
