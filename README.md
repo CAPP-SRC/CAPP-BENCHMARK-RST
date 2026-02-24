@@ -437,4 +437,4 @@ Il tool è stato progettato e testato per i **Setup Sheet** generati da:
 
 ## Licenza
 
-Uso interno. Tutti i diritti riservati.
+MIT
