@@ -1,0 +1,4476 @@
+{
+    "data": [
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Finitura tasche no smusso fondo",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 18,
+                "LCF": 8,
+                "NOF": 5,
+                "OAL": 54,
+                "RE": 0.2,
+                "SFDM": 6,
+                "assemblyGaugeLength": 107.0522,
+                "shoulder-diameter": 4,
+                "shoulder-length": 14
+            },
+            "guid": "08f16b0a-2e54-4b30-b1af-34298308bff4",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13011,
+                "length-offset": 13011,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13011,
+                "turret": 0
+            },
+            "product-id": "1K335-0400-020-XC 1730",
+            "product-link": "https://www.sandvik.coromant.com/it-it/product-details?c=1K335-0400-020-XC%20%20%201730",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "9ea95e22-4b12-e54e-60c5-618cea47879e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "Impostazione predefinita",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "d5289ede-40bc-2920-9492-a09d40212e0e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "Stainless Steel - Wall Finishing",
+                        "ramp-angle": 2,
+                        "stepdown": 7.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "78089c6c-43ed-b9d6-f811-0a87541c4516",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "Stainless Steel - Flat finishing",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "4c0a31e5-44be-2ac5-46d4-cd8b8bee1cf3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "StainlessSteel_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "3429dfda-44f3-fbe4-6429-e6b535b7a054",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "StainlessSteel_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "49ca3b41-41f4-90cf-484e-4d91c896b703",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "400Stainless_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "e712a009-4bb7-42d0-d8d8-e19e5b38c597",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "400Stainless_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "ce7e751e-4dbd-2f4d-7ccd-40a11a9581ec",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "StainlessSteel_Slot",
+                        "ramp-angle": 2,
+                        "stepdown": 7.2,
+                        "stepover": 1.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06242192786160353,
+                        "f_z": 0.0111236,
+                        "guid": "0018ae36-4c60-9772-5530-419cc2d15d31",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5339.99848160789,
+                        "n_ramp": 5340,
+                        "name": "400Stainless_Slot",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 67.1044,
+                        "v_f": 297.0000355500676,
+                        "v_f_leadIn": 297,
+                        "v_f_leadOut": 297,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 297
+                    }
+                ]
+            },
+            "type": "bull nose end mill",
+            "unit": "millimeters",
+            "vendor": "sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Sgrossatura",
+            "geometry": {
+                "CSP": false,
+                "DC": 40,
+                "DCX": 76,
+                "HAND": true,
+                "LB": 40,
+                "LCF": 18,
+                "NOF": 4,
+                "OAL": 45,
+                "RE": 0.8,
+                "SFDM": 32,
+                "TA": 45,
+                "assemblyGaugeLength": 129.0522,
+                "shoulder-diameter": 76,
+                "shoulder-length": 20,
+                "upper-radius": 0
+            },
+            "guid": "12bf9c08-679e-4f36-8607-094f63c380c3",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13000,
+                "length-offset": 13000,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13000,
+                "turret": 0
+            },
+            "product-id": "345-040Q22-13L",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=345-040Q22-13L",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.2222214803495133,
+                        "f_z": 0.398333,
+                        "guid": "7031dac1-42c1-716d-0fb9-408557e52fe4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1500.0035076524953,
+                        "n_ramp": 1500,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 188.496,
+                        "v_f": 2390.0035888549655,
+                        "v_f_leadIn": 2390,
+                        "v_f_leadOut": 2390,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2390
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.2222214803495133,
+                        "f_z": 0.398333,
+                        "guid": "7d548c54-4a1e-4a18-1f36-a1bc7e9b0907",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1500.0035076524953,
+                        "n_ramp": 1500,
+                        "name": "Stainless Steel - Face roughing",
+                        "ramp-angle": 2,
+                        "stepdown": 16.2,
+                        "stepover": 12,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 188.496,
+                        "v_f": 2390.0035888549655,
+                        "v_f_leadIn": 2390,
+                        "v_f_leadOut": 2390,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2390
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.2222214803495133,
+                        "f_z": 0.398333,
+                        "guid": "0606d45b-428f-109c-04f4-83bf75b96160",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1500.0035076524953,
+                        "n_ramp": 1500,
+                        "name": "StainlessSteel_Face_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 188.496,
+                        "v_f": 2390.0035888549655,
+                        "v_f_leadIn": 2390,
+                        "v_f_leadOut": 2390,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2390
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.2222214803495133,
+                        "f_z": 0.398333,
+                        "guid": "06a0c5d1-4236-8d56-1d32-1e87f40b86da",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1500.0035076524953,
+                        "n_ramp": 1500,
+                        "name": "400Stainless_Face_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 188.496,
+                        "v_f": 2390.0035888549655,
+                        "v_f_leadIn": 2390,
+                        "v_f_leadOut": 2390,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2390
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Tasche piccole",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 15.87,
+                "LCF": 8,
+                "NOF": 5,
+                "OAL": 54,
+                "RE": 0.2,
+                "SFDM": 6,
+                "assemblyGaugeLength": 104.9222,
+                "shoulder-diameter": 4,
+                "shoulder-length": 14
+            },
+            "guid": "eafe0305-8dcf-475f-8078-7e7884e65329",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13001,
+                "length-offset": 13001,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13001,
+                "turret": 0
+            },
+            "product-id": "1K335-0400-020-XC 1730",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=1K335-0400-020-XC%20%20%201730",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "c15e2dc5-4503-6f91-fee9-a292589938c0",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "cf3356f8-417f-7683-a88c-ad88f2baf6bb",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "Stainless Steel - Roughing",
+                        "ramp-angle": 2,
+                        "stepdown": 7.2,
+                        "stepover": 1.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "a6618c41-45f1-cc08-3b9c-6fb73993b4e3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "StainlessSteel_Traditional_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "026983c4-4f04-78b0-f1f5-059f016ed8e4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "StainlessSteel_Adaptive_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "98d2d28f-486c-553c-b172-b78bf646fd48",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "400Stainless_Traditional_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "1a60501c-41dd-23ef-05f8-22b3a8748453",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "400Stainless_Adaptive_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "34c85765-42ef-5f8a-fef4-2587bdc31132",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "StainlessSteel_Slot",
+                        "ramp-angle": 2,
+                        "stepdown": 7.2,
+                        "stepover": 1.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "3cb1585b-4c7b-a86e-c645-0c9dbeee6525",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "400Stainless_Slot",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "d6dfc967-4515-6534-776f-42996532289f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "Stainless Steel - Helical boring",
+                        "ramp-angle": 2,
+                        "stepdown": 7.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "152431e5-4197-8d21-e4cf-fb894ab8d4a7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "StainlessSteel_Bore_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.07342139470960672,
+                        "f_z": 0.0189427,
+                        "guid": "4066ac40-4567-9e3e-ce47-7c99ef93011c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4539.998202409324,
+                        "n_ramp": 4540,
+                        "name": "400Stainless_Bore_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 57.0513,
+                        "v_f": 429.9991197438955,
+                        "v_f_leadIn": 430,
+                        "v_f_leadOut": 430,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 430
+                    }
+                ]
+            },
+            "type": "bull nose end mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Tasche",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 18.5,
+                "LCF": 10,
+                "NOF": 5,
+                "OAL": 57,
+                "RE": 0.5,
+                "SFDM": 6,
+                "assemblyGaugeLength": 107.5522,
+                "shoulder-diameter": 5,
+                "shoulder-length": 17.5
+            },
+            "guid": "7b753d4f-530b-40f0-b90f-1d11366712a6",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13002,
+                "length-offset": 13002,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13002,
+                "turret": 0
+            },
+            "product-id": "1K335-0500-050-XC 1730",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=1K335-0500-050-XC%20%20%201730",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "db0be9bf-40e1-3706-0f47-03a494f176a5",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "dbb7cd4a-47a3-8af7-62e9-fbbb176eb507",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "Stainless Steel - Roughing",
+                        "ramp-angle": 2,
+                        "stepdown": 9,
+                        "stepover": 1.5,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "5c441803-41d3-72ff-8093-dc8e36bedf39",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "StainlessSteel_Traditional_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "057975c2-4c2d-51c8-fa4e-d4b587f0d9a0",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "StainlessSteel_Adaptive_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "7d672432-4c44-b1fe-1fa2-66bcab4a62e7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "400Stainless_Traditional_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "9ce2fe1b-44c6-0fdc-e6d0-ff909bf1f654",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "400Stainless_Adaptive_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "69f07c46-4547-3b08-26f1-fe991a5fd8de",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "StainlessSteel_Slot",
+                        "ramp-angle": 2,
+                        "stepdown": 9,
+                        "stepover": 1.5,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "e4375022-4d26-c599-096f-4099d561b123",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "400Stainless_Slot",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "112597e6-4c0c-94b2-18c9-8fbd0f5e779d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "Stainless Steel - Helical boring",
+                        "ramp-angle": 2,
+                        "stepdown": 9,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "82a3dc92-46b2-3949-940f-70aafabc4fac",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "StainlessSteel_Bore_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.09208098299758775,
+                        "f_z": 0.023535900000000005,
+                        "guid": "675a34d6-420f-6332-4c82-62b73002bb7e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 3619.998279218331,
+                        "n_ramp": 3620,
+                        "name": "400Stainless_Bore_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.862800000000014,
+                        "v_f": 425.9995874992736,
+                        "v_f_leadIn": 426,
+                        "v_f_leadOut": 426,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 426
+                    }
+                ]
+            },
+            "type": "bull nose end mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Fori",
+            "geometry": {
+                "CSP": false,
+                "DC": 2.5,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 22.5,
+                "NOF": 2,
+                "OAL": 60,
+                "SFDM": 4,
+                "SIG": 140,
+                "assemblyGaugeLength": 139.0522,
+                "shoulder-length": 27.5
+            },
+            "guid": "e883289f-c933-4538-ac37-dbbf1b3f72a4",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13003,
+                "length-offset": 13003,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13003,
+                "turret": 0
+            },
+            "product-id": "862.1-2500-225A0-GM X2BL",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=862.1-2500-225A0-GM%20X2BL",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "guid": "a90c5d8d-4553-4f98-fd93-4c814c59299b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4010.0042841661584,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 31.4945,
+                        "v_f_plunge": 214,
+                        "v_f_retract": 1000.002838372504
+                    },
+                    {
+                        "description": "",
+                        "guid": "d30b5732-4ca4-04b2-94b7-4d9bee5ca346",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4010.0042841661584,
+                        "name": "Stainless Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 31.4945,
+                        "v_f_plunge": 214,
+                        "v_f_retract": 1000.002838372504
+                    },
+                    {
+                        "description": "",
+                        "guid": "e6eca9a3-46b8-f36d-e057-4f8f9e199f41",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4010.0042841661584,
+                        "name": "StainlessSteel_Drill",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 31.4945,
+                        "v_f_plunge": 214,
+                        "v_f_retract": 1000.002838372504
+                    },
+                    {
+                        "description": "",
+                        "guid": "af7943d4-4ce2-ab39-e0dd-459db7f9f09b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4010.0042841661584,
+                        "name": "400Stainless_Drill",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 31.4945,
+                        "v_f_plunge": 214,
+                        "v_f_retract": 1000.002838372504
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": "Sanvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Finitura foro grande",
+            "geometry": {
+                "CSP": false,
+                "DC": 40,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 8.97,
+                "NOF": 1,
+                "OAL": 65,
+                "SFDM": 32,
+                "assemblyGaugeLength": 139.0522,
+                "shoulder-length": 40
+            },
+            "guid": "42173064-52f9-461d-a071-7210edaed7a4",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13005,
+                "length-offset": 13005,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13005,
+                "turret": 0
+            },
+            "product-id": "825-45TC09-C3",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=825-45TC09-C3",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.27548197115454387,
+                        "f_z": 0.200826,
+                        "guid": "96db4563-4ddf-6ff2-d969-b38cea8e562f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1209.9993280975982,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.053,
+                        "v_f": 242.99932506452825,
+                        "v_f_leadIn": 243,
+                        "v_f_leadOut": 243,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_retract": 0,
+                        "v_f_transition": 243
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.27548197115454387,
+                        "f_z": 0.200826,
+                        "guid": "9333747a-47d2-1f9a-4b31-eb88cce8ecfb",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1209.9993280975982,
+                        "name": "Stainless Steel - Helical boring",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.053,
+                        "v_f": 242.99932506452825,
+                        "v_f_leadIn": 243,
+                        "v_f_leadOut": 243,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_retract": 0,
+                        "v_f_transition": 243
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.27548197115454387,
+                        "f_z": 0.200826,
+                        "guid": "6b2a513a-454f-c1dc-2957-bf8dc64f8942",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1209.9993280975982,
+                        "name": "StainlessSteel_Bore_Finish",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.053,
+                        "v_f": 242.99932506452825,
+                        "v_f_leadIn": 243,
+                        "v_f_leadOut": 243,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_retract": 0,
+                        "v_f_transition": 243
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.27548197115454387,
+                        "f_z": 0.200826,
+                        "guid": "3d605020-49bc-6fbc-5051-888fcfd999d4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1209.9993280975982,
+                        "name": "400Stainless_Bore_Finish",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 152.053,
+                        "v_f": 242.99932506452825,
+                        "v_f_leadIn": 243,
+                        "v_f_leadOut": 243,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_retract": 0,
+                        "v_f_transition": 243
+                    }
+                ]
+            },
+            "type": "boring bar",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Finitura tasche no smusso pareti",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 18,
+                "LCF": 8,
+                "NOF": 5,
+                "OAL": 54,
+                "SFDM": 6,
+                "assemblyGaugeLength": 107.0522,
+                "shoulder-diameter": 4,
+                "shoulder-length": 15
+            },
+            "guid": "a2bed758-203d-45d5-9ead-8addec754952",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13010,
+                "length-offset": 13010,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13010,
+                "turret": 0
+            },
+            "product-id": "1K335-0400-020-XC 1730",
+            "product-link": "https://www.sandvik.coromant.com/it-it/product-details?c=1K335-0400-020-XC%20%20%201730",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "146d2e28-42cc-8c60-a986-3da8dfec7c92",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "Impostazione predefinita",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "139ba5b6-4d06-c23a-4317-72aeed73dba3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "Stainless Steel - Wall Finishing",
+                        "ramp-angle": 2,
+                        "stepdown": 7.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "86b44dea-4674-7130-23c2-d097b88e5e4d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "Stainless Steel - Flat finishing",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "68c949cd-4b79-9a6e-119f-41a1135b0f04",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "StainlessSteel_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "910323ca-48b3-8779-83ef-f1931f6ee497",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "StainlessSteel_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "28f384d7-4fad-d90e-5fcf-37b01d790749",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "400Stainless_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "712f96b6-4318-fe1f-8e14-74aea1b91d84",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "400Stainless_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "a1d26cbb-432b-2266-f2a0-978139c976bf",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "StainlessSteel_Slot",
+                        "ramp-angle": 2,
+                        "stepdown": 7.2,
+                        "stepover": 1.2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.041666610458427615,
+                        "f_z": 0.012225,
+                        "guid": "9ed6cfba-443a-da7f-1372-a49c702fced1",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8000.002791985667,
+                        "n_ramp": 8000,
+                        "name": "400Stainless_Slot",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 100.53100000000003,
+                        "v_f": 489.0001706601239,
+                        "v_f_leadIn": 489,
+                        "v_f_leadOut": 489,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 489
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Finitura superficiale",
+            "geometry": {
+                "CSP": false,
+                "DC": 63,
+                "DCX": 102.618,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 22,
+                "NOF": 7,
+                "OAL": 50,
+                "RE": 1,
+                "SFDM": 22,
+                "TA": 42,
+                "assemblyGaugeLength": 139.0522,
+                "shoulder-diameter": 102.618,
+                "shoulder-length": 30,
+                "upper-radius": 0
+            },
+            "guid": "3ab9637f-e3b5-42a1-974e-cd659a865920",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13007,
+                "length-offset": 13007,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13007,
+                "turret": 0
+            },
+            "product-id": "745-063Q22-21H",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=745-063Q22-21H",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.23148148191063292,
+                        "f_z": 0.196429,
+                        "guid": "58061f60-4813-b62e-ec68-7087520a24ee",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1439.9985573303377,
+                        "n_ramp": 1440,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 285.005,
+                        "v_f": 1980.002336324886,
+                        "v_f_leadIn": 1980,
+                        "v_f_leadOut": 1980,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1980
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.23148148191063292,
+                        "f_z": 0.196429,
+                        "guid": "dd88fff0-427c-bb43-0fbf-589ab267125d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1439.9985573303377,
+                        "n_ramp": 1440,
+                        "name": "Stainless Steel - Face finishing",
+                        "ramp-angle": 2,
+                        "stepdown": 19.8,
+                        "stepover": 18.9,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 285.005,
+                        "v_f": 1980.002336324886,
+                        "v_f_leadIn": 1980,
+                        "v_f_leadOut": 1980,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1980
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.23148148191063292,
+                        "f_z": 0.196429,
+                        "guid": "9ad3f818-4609-d423-9019-8ca78e4c1120",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1439.9985573303377,
+                        "n_ramp": 1440,
+                        "name": "StainlessSteel_Face_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 285.005,
+                        "v_f": 1980.002336324886,
+                        "v_f_leadIn": 1980,
+                        "v_f_leadOut": 1980,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1980
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.23148148191063292,
+                        "f_z": 0.196429,
+                        "guid": "18283db1-4989-866b-f90c-a3aab8ab93b1",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 1439.9985573303377,
+                        "n_ramp": 1440,
+                        "name": "400Stainless_Face_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 285.005,
+                        "v_f": 1980.002336324886,
+                        "v_f_leadIn": 1980,
+                        "v_f_leadOut": 1980,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1980
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Spallamento",
+            "geometry": {
+                "CSP": false,
+                "DC": 4.76,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 11.113,
+                "NOF": 2,
+                "OAL": 50.8,
+                "RE": 0.381,
+                "SFDM": 4.762,
+                "assemblyGaugeLength": 119.0522,
+                "shoulder-diameter": 4.76,
+                "shoulder-length": 11.113
+            },
+            "guid": "6a5a8930-4a2a-4d4b-8f72-c7978d4cc640",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13012,
+                "length-offset": 13012,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13012,
+                "turret": 0
+            },
+            "product-id": "2S342-0476-038-PA 1730",
+            "product-link": "https://www.sandvik.coromant.com/en-gb/product-details?c=2S342-0476-038-PA%20%20%201730",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "77f589c2-4294-9a84-1f47-ae87bd340137",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "eb96dd6a-48d1-4e0e-630c-70b7fd4f79d3",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "Stainless Steel - Roughing",
+                        "ramp-angle": 2,
+                        "stepdown": 10.0017,
+                        "stepover": 1.428,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "e883fd35-4e3e-a5d0-4a89-0bab8db018a7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "StainlessSteel_Traditional_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "04a0309c-4d4e-133b-21ff-8ab94a5d9ba1",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "StainlessSteel_Adaptive_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "bd2fabfb-47b3-30b5-4610-a4857882d33b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "400Stainless_Traditional_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "eb170529-4552-073f-0759-6c8c0ef0c4b0",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "400Stainless_Adaptive_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "27374bd8-4bfe-19e0-3ad9-c29ae621b4dc",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "StainlessSteel_Slot",
+                        "ramp-angle": 2,
+                        "stepdown": 10.0017,
+                        "stepover": 1.428,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "351cb937-4c92-b66c-a9c2-d49a24c9dedb",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "400Stainless_Slot",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "417fb9c3-44cb-38a0-cc36-1493fcbb97a1",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "Stainless Steel - Helical boring",
+                        "ramp-angle": 2,
+                        "stepdown": 10.0017,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "afc0863d-43bb-92f9-91ea-368ab5bbe234",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "StainlessSteel_Bore_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "f2f694d1-4e1c-b8bd-76c2-108fa77600b4",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "400Stainless_Bore_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "e11e4726-46be-54dd-ee8e-7e96b4f7e92c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "Stainless Steel - Wall Finishing",
+                        "ramp-angle": 2,
+                        "stepdown": 10.0017,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "3d35febe-4735-7eaf-2d35-bb9187eadf7c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "Stainless Steel - Flat finishing",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "80efd2a1-4f08-ad90-2b64-82a449da271f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "StainlessSteel_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "52c24f0b-431f-9f91-f1b2-00b77d1c6d0b",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "StainlessSteel_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "cc0ca179-4fe8-a3ae-3a66-36826ac45d0f",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "400Stainless_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.06626900774457695,
+                        "f_z": 0.0232604,
+                        "guid": "2bc70b56-49f6-f6c0-790e-80ad7efdb39e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5029.998355864594,
+                        "n_ramp": 5030,
+                        "name": "400Stainless_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2185,
+                        "v_f": 233.9995475135056,
+                        "v_f_leadIn": 234,
+                        "v_f_leadOut": 234,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 234
+                    }
+                ]
+            },
+            "type": "bull nose end mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Foro grande",
+            "geometry": {
+                "CSP": false,
+                "DC": 20,
+                "HAND": true,
+                "LB": 79,
+                "LCF": 55,
+                "NOF": 2,
+                "OAL": 127.9,
+                "SFDM": 20,
+                "SIG": 147,
+                "assemblyGaugeLength": 168.0522,
+                "shoulder-length": 60
+            },
+            "guid": "3b5a7c76-819a-4773-937e-f97ccf796dd2",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13004,
+                "length-offset": 13004,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13004,
+                "turret": 0
+            },
+            "product-id": "860.1-2000-055A1-PM P1BM",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=860.1-2000-055A1-PM%20P1BM",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "guid": "4ee60c14-4d48-c6ab-9eee-29aef1a24c9e",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4999.995776680675,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 314.159,
+                        "v_f_plunge": 1000,
+                        "v_f_retract": 999.999155336135
+                    },
+                    {
+                        "description": "",
+                        "guid": "5b63481c-4b71-826a-cec1-348bc94ec441",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4999.995776680675,
+                        "name": "Stainless Steel - Drilling",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 314.159,
+                        "v_f_plunge": 1000,
+                        "v_f_retract": 999.999155336135
+                    },
+                    {
+                        "description": "",
+                        "guid": "da347bfa-4a64-5286-9ee8-418ace3f8017",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4999.995776680675,
+                        "name": "StainlessSteel_Drill",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 314.159,
+                        "v_f_plunge": 1000,
+                        "v_f_retract": 999.999155336135
+                    },
+                    {
+                        "description": "",
+                        "guid": "079fea49-4acb-9dbb-7f70-9ca872bfce2a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4999.995776680675,
+                        "name": "400Stainless_Drill",
+                        "tool-coolant": "flood",
+                        "use-feed-per-revolution": false,
+                        "v_c": 314.159,
+                        "v_f_plunge": 1000,
+                        "v_f_retract": 999.999155336135
+                    }
+                ]
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Contornatura",
+            "geometry": {
+                "CSP": false,
+                "DC": 13.7,
+                "DCX": 13.7,
+                "HAND": true,
+                "LB": 20,
+                "LCF": 5.8,
+                "NOF": 3,
+                "OAL": 80,
+                "RE": 0.4,
+                "SFDM": 14,
+                "TA": 0,
+                "assemblyGaugeLength": 109.0522,
+                "shoulder-diameter": 13.7,
+                "shoulder-length": 15,
+                "upper-radius": 0
+            },
+            "guid": "d4e541b2-ec19-4588-8bd0-bfb0778b5f86",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13006,
+                "length-offset": 13006,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13006,
+                "turret": 0
+            },
+            "product-id": "R390-0137A14-07M",
+            "product-link": "https://www.sandvik.coromant.com/it-it/products/pages/productdetails.aspx?c=R390-0137A14-07M",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.0413564449361257,
+                        "f_z": 0.0856079,
+                        "guid": "75bfad0c-4c52-9c81-529b-48aa40878768",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8060.001301244028,
+                        "n_ramp": 8060,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 346.901,
+                        "v_f": 2069.9993561903057,
+                        "v_f_leadIn": 4025,
+                        "v_f_leadOut": 4025,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2070
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.0413564449361257,
+                        "f_z": 0.0856079,
+                        "guid": "44840b7b-4f96-aa05-6b03-daba943596ee",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8060.001301244027,
+                        "n_ramp": 8060,
+                        "name": "Stainless Steel - Face roughing",
+                        "ramp-angle": 2,
+                        "stepdown": 5.22,
+                        "stepover": 4.11,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 346.901,
+                        "v_f": 2069.9993561903057,
+                        "v_f_leadIn": 4025,
+                        "v_f_leadOut": 4025,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2070
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0413564449361257,
+                        "f_z": 0.0856079,
+                        "guid": "2f282b38-4403-1fe6-ba95-ba8d1049a29a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8060.001301244028,
+                        "n_ramp": 8060,
+                        "name": "StainlessSteel_Face_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 346.901,
+                        "v_f": 2069.9993561903057,
+                        "v_f_leadIn": 4025,
+                        "v_f_leadOut": 4025,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2070
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0413564449361257,
+                        "f_z": 0.0856079,
+                        "guid": "79513ef9-4ef4-49d5-3f75-63843003a6d9",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8060.001301244028,
+                        "n_ramp": 8060,
+                        "name": "400Stainless_Face_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 346.901,
+                        "v_f": 2069.9993561903057,
+                        "v_f_leadIn": 4025,
+                        "v_f_leadOut": 4025,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2070
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0413564449361257,
+                        "f_z": 0.0856079,
+                        "guid": "6eb114e7-4402-8261-6069-258ffa9297be",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8060.001301244028,
+                        "n_ramp": 8060,
+                        "name": "Stainless Steel - Face finishing",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 346.901,
+                        "v_f": 2069.9993561903057,
+                        "v_f_leadIn": 4025,
+                        "v_f_leadOut": 4025,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2070
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0413564449361257,
+                        "f_z": 0.0856079,
+                        "guid": "93cce022-4de2-0cd2-b9f2-5b9259710a34",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8060.001301244028,
+                        "n_ramp": 8060,
+                        "name": "StainlessSteel_Face_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 346.901,
+                        "v_f": 2069.9993561903057,
+                        "v_f_leadIn": 4025,
+                        "v_f_leadOut": 4025,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2070
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.0413564449361257,
+                        "f_z": 0.0856079,
+                        "guid": "a05bee5b-4cf2-7569-fca8-98b2c1af05ea",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 8060.001301244028,
+                        "n_ramp": 8060,
+                        "name": "400Stainless_Face_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 346.901,
+                        "v_f": 2069.9993561903057,
+                        "v_f_leadIn": 4025,
+                        "v_f_leadOut": 4025,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2070
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Finitura pareti",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 14.87,
+                "LCF": 11,
+                "NOF": 5,
+                "OAL": 57,
+                "RE": 1,
+                "SFDM": 6,
+                "assemblyGaugeLength": 103.9222,
+                "shoulder-diameter": 4,
+                "shoulder-length": 14
+            },
+            "guid": "c921af54-2fa2-4210-bed5-9960a851d17d",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13009,
+                "length-offset": 13009,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13009,
+                "turret": 0
+            },
+            "product-id": "R216.23-04050CAK11P 1630",
+            "product-link": "https://www.sandvik.coromant.com/it-it/product-details?c=R216.23-04050CAK11P%201630",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.05564821749210453,
+                        "f_z": 0.0719199,
+                        "guid": "0a94f9e8-4d48-44f9-08e7-f2ab947382c7",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5990.0031846895,
+                        "n_ramp": 5990,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2726,
+                        "v_f": 2154.0021502127515,
+                        "v_f_leadIn": 2154,
+                        "v_f_leadOut": 2154,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2154
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true"
+                        },
+                        "f_n": 0.05564821749210453,
+                        "f_z": 0.0719199,
+                        "guid": "c4f06d03-446f-16f7-fcdf-ad8f8c9db57c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5990.0031846895,
+                        "n_ramp": 5990,
+                        "name": "Stainless Steel - Wall Finishing",
+                        "ramp-angle": 2,
+                        "stepdown": 9.9,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 75.2726,
+                        "v_f": 2154.0021502127515,
+                        "v_f_leadIn": 2154,
+                        "v_f_leadOut": 2154,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2154
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.05564821749210453,
+                        "f_z": 0.0719199,
+                        "guid": "5440ebbf-4dea-ba0c-773b-99a949f42d60",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5990.0031846895,
+                        "n_ramp": 5990,
+                        "name": "StainlessSteel_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2726,
+                        "v_f": 2154.0021502127515,
+                        "v_f_leadIn": 2154,
+                        "v_f_leadOut": 2154,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2154
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.05564821749210453,
+                        "f_z": 0.0719199,
+                        "guid": "7944d3cb-40cd-c967-0651-da86b594a60d",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 5990.0031846895,
+                        "n_ramp": 5990,
+                        "name": "400Stainless_Wall_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 75.2726,
+                        "v_f": 2154.0021502127515,
+                        "v_f_leadIn": 2154,
+                        "v_f_leadOut": 2154,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 2154
+                    }
+                ]
+            },
+            "type": "bull nose end mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Finitura fondo",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 14.87,
+                "LCF": 11,
+                "NOF": 5,
+                "OAL": 57,
+                "RE": 1,
+                "SFDM": 6,
+                "assemblyGaugeLength": 103.9222,
+                "shoulder-diameter": 4,
+                "shoulder-length": 14
+            },
+            "guid": "5eaea2d3-1abf-4b71-8565-205033961035",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13008,
+                "length-offset": 13008,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13008,
+                "turret": 0
+            },
+            "product-id": "R216.23-04050CAK11P 1630",
+            "product-link": "https://www.sandvik.coromant.com/it-it/product-details?c=R216.23-04050CAK11P%201630",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.08071018603398104,
+                        "f_z": 0.039322,
+                        "guid": "3c0d9e85-459c-aac2-c3f7-f794113b5f52",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4129.999153510294,
+                        "n_ramp": 8000,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 51.89910000000001,
+                        "v_f": 811.999133571659,
+                        "v_f_leadIn": 812,
+                        "v_f_leadOut": 812,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 812
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.08071018603398104,
+                        "f_z": 0.039322,
+                        "guid": "0298d3ba-41a3-6188-956c-7191584c52e9",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4129.999153510294,
+                        "n_ramp": 8000,
+                        "name": "Stainless Steel - Flat finishing",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 51.89910000000001,
+                        "v_f": 811.999133571659,
+                        "v_f_leadIn": 812,
+                        "v_f_leadOut": 812,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 812
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.08071018603398104,
+                        "f_z": 0.039322,
+                        "guid": "8b3f1eb8-43b8-4ee3-656a-7ba752aa7538",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4129.999153510294,
+                        "n_ramp": 8000,
+                        "name": "StainlessSteel_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 51.89910000000001,
+                        "v_f": 811.999133571659,
+                        "v_f_leadIn": 812,
+                        "v_f_leadOut": 812,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 812
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.08071018603398104,
+                        "f_z": 0.039322,
+                        "guid": "295144e4-4dd3-1452-d5ad-41829fbb364a",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 4129.999153510294,
+                        "n_ramp": 8000,
+                        "name": "400Stainless_Floor_Finish",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 51.89910000000001,
+                        "v_f": 811.999133571659,
+                        "v_f_leadIn": 812,
+                        "v_f_leadOut": 812,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 812
+                    }
+                ]
+            },
+            "type": "bull nose end mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Allargatura foro grande",
+            "geometry": {
+                "CSP": false,
+                "DC": 13.7,
+                "DCX": 13.7,
+                "HAND": true,
+                "LB": 25,
+                "LCF": 5.8,
+                "NOF": 3,
+                "OAL": 30,
+                "RE": 0.4,
+                "SFDM": 11.7,
+                "TA": 0,
+                "assemblyGaugeLength": 114.0522,
+                "shoulder-diameter": 13.7,
+                "shoulder-length": 25,
+                "upper-radius": 0
+            },
+            "guid": "449a86ea-b914-47ae-b648-af23be4679d9",
+            "holder": {
+                "description": "BT40 - B4C4-1000",
+                "expressions": {
+                    "tool_holderGaugeLength": "segment_1_height + segment_2_height + segment_3_height + segment_4_height + segment_5_height + segment_6_height + segment_7_height + segment_8_height + segment_9_height + segment_10_height + segment_11_height + segment_12_height + segment_13_height + segment_14_height + segment_15_height + segment_16_height + segment_17_height + segment_18_height"
+                },
+                "gaugeLength": 89.0522,
+                "guid": "",
+                "last_modified": 1645625075160,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "{352d1b33-3474-4a13-9e10-728f696966ed}",
+                "segments": [
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 61.214,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 7.747,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 3.048,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 62.992
+                    },
+                    {
+                        "height": 0.635,
+                        "lower-diameter": 62.992,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 13.716,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 1.016,
+                        "lower-diameter": 64.262,
+                        "upper-diameter": 64.262
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 49.7078,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 5.08,
+                        "lower-diameter": 44.577,
+                        "upper-diameter": 44.577
+                    },
+                    {
+                        "height": 26.1112,
+                        "lower-diameter": 57.15,
+                        "upper-diameter": 57.15
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 61,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 4.4,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 63,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 4.226,
+                        "lower-diameter": 53,
+                        "upper-diameter": 53
+                    },
+                    {
+                        "height": 2.887,
+                        "lower-diameter": 53,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 8.6,
+                        "lower-diameter": 63,
+                        "upper-diameter": 63
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 63,
+                        "upper-diameter": 61
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 44.45,
+                        "upper-diameter": 44.45
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 13013,
+                "length-offset": 13013,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 13013,
+                "turret": 0
+            },
+            "product-id": "R390-0137EH12-07M",
+            "product-link": "https://www.sandvik.coromant.com/it-it/product-details?c=R390-0137EH12-07M",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.042516987436837475,
+                        "f_z": 0.0820578,
+                        "guid": "83bad4c7-4e61-0574-a171-81965241049c",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 7839.995731005025,
+                        "n_ramp": 7840,
+                        "name": "Default preset",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 337.432,
+                        "v_f": 1929.998405086992,
+                        "v_f_leadIn": 1930,
+                        "v_f_leadOut": 1930,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1930
+                    },
+                    {
+                        "description": "",
+                        "expressions": {
+                            "use_tool_stepdown": "true",
+                            "use_tool_stepover": "true"
+                        },
+                        "f_n": 0.042516987436837475,
+                        "f_z": 0.0820578,
+                        "guid": "599b4a29-49d4-9938-0c89-c096ff70b4ba",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 7839.995731005026,
+                        "n_ramp": 7840,
+                        "name": "Stainless Steel - Face roughing",
+                        "ramp-angle": 2,
+                        "stepdown": 5.22,
+                        "stepover": 4.11,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 337.432,
+                        "v_f": 1929.9984050869923,
+                        "v_f_leadIn": 1930,
+                        "v_f_leadOut": 1930,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1930
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.042516987436837475,
+                        "f_z": 0.0820578,
+                        "guid": "d19cbe71-4962-94e4-64a9-21ad31a7fb56",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 7839.995731005025,
+                        "n_ramp": 7840,
+                        "name": "StainlessSteel_Face_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 337.432,
+                        "v_f": 1929.998405086992,
+                        "v_f_leadIn": 1930,
+                        "v_f_leadOut": 1930,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1930
+                    },
+                    {
+                        "description": "",
+                        "f_n": 0.042516987436837475,
+                        "f_z": 0.0820578,
+                        "guid": "ff037146-42a6-d5aa-0b9e-b3ba2f61a739",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "n": 7839.995731005025,
+                        "n_ramp": 7840,
+                        "name": "400Stainless_Face_Rough",
+                        "ramp-angle": 2,
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 337.432,
+                        "v_f": 1929.998405086992,
+                        "v_f_leadIn": 1930,
+                        "v_f_leadOut": 1930,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333,
+                        "v_f_transition": 1930
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": "Sandvik"
+        }
+    ],
+    "version": 36
+}
