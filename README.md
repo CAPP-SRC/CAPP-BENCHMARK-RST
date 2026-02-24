@@ -542,4 +542,4 @@ MIT
 
 ## Autore
 
-[RAW](https://rawmain.github.io/)
+[RAW](https://rawmain.github.io/) - _aka RST_
