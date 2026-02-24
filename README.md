@@ -2,7 +2,7 @@
 
 Suite di tool da riga di comando per confrontare **operation sheet PDF** (generati da Fusion 360 / HSMWorks) e restituire punteggi comparativi **0–100** stile **Vendor Rating**.
 
-Dato un pezzo da lavorare e una libreria utensili condivisa, diversi gruppi possono definire cicli di lavorazione diversi. Questi tool li confrontano in modo oggettivo su 13 driver raggruppati in 6 categorie, producendo una scorecard immediata e leggibile.
+Dato un pezzo da lavorare e una libreria utensili condivisa, diversi gruppi di lavoro umani e/o software di pianificazione CAPP (Computer Aided Process Planning) possono definire cicli di lavorazione diversi. Questi tool li confrontano in modo oggettivo su 13 driver raggruppati in 6 categorie, producendo una scorecard immediata e leggibile.
 
 La suite è composta da due script:
 
