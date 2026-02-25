@@ -1,4 +1,4 @@
-# CNC Operation Sheet — Vendor Rating Benchmark
+# CAPP Benchmark - CNC Operation Sheet — Vendor Rating
 
 Suite di tool da riga di comando per confrontare **operation sheet PDF** (generati da Fusion 360 / HSMWorks) e restituire punteggi comparativi **0–100** stile **Vendor Rating**.
 
